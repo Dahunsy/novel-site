@@ -1,0 +1,385 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MurkyRealms | Home</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="navbar container">
+            <a href="./index.html">
+                <h2 class="logo"><img src="./assets/images/favicon.png">    MurkyRealms</h2>
+            </a>
+
+            <div class="menu" id="menu">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="index.html" class="list-link current">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Genres</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="library.html" class="list-link">Library</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="Contact us.html" class="list-link">Contact</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="./signin.html" class="list-link">Sign in</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="./signup.html" class="list-link">Sign up</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list list-right">
+                <button class="btn place-items-center" id="theme-toggle-btn">
+                    <i class="ri-sun-line sun-icon"></i>
+                    <i class="ri-moon-line moon-icon"></i>
+                </button>
+
+                <button class="btn place-items-center" id="search-icon">
+                    <i class="ri-search-line"></i>
+                </button>
+
+                <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+                    <i class="ri-menu-3-line open-menu-icon"></i>
+                    <i class="ri-close-line close-menu-icon"></i>
+                </button>
+
+                <a href="#" class="list-link screen-sm-hidden">Log in</a>
+                <a href="#" class="btn sign-up-btn fancy-border screen-sm-hidden">
+                    <span>Sign up</span>
+                </a>
+            </div>
+    </header>
+
+    <!-- Search -->
+    /*<div class="search-form-container container" id="search-form-container">
+
+        <div class="form-container-inner">
+
+            <form action="" class="form">
+                <input class="form-input" id="search-item" type="text" placeholder="What are you looking for?">
+                <button class="btn form-btn" type="submit">
+                    <i class="ri-search-line"></i>
+                </button>
+            </form>
+            <span class="form-note">Or press ESC to close.</span>
+
+        </div>
+
+        <button class="btn form-close-btn place-items-center" id="form-close-btn">
+            <i class="ri-close-line"></i>
+        </button>
+
+    </div>
+
+    <!-- Featured -->
+    <div class="pop-books">
+        <h2>Popular Books</h2>
+        <div class="popular-books">
+            <a href="./the great rular.html" class="libr-books">
+                <img src="./assets/images/The Great Ruler 5.jpg" alt="" class="book-image">
+                <span class="book-category">Ongoing</span>
+        
+                <div class="book-data-container">
+        
+                    <h3 class="title book-title">The Great Rular</h3>
+        
+                </div>
+            </a>
+            <a href="./perfect world.html" class="libr-books">
+                <img src="./assets/images/perfect world cover real.jpg" alt="" class="book-image">
+                <span class="book-category">Ongoing</span>
+        
+                <div class="book-data-container">
+        
+                    <h3 class="title book-title">Perfect World</h3>
+        
+                </div>
+            </a>
+            <a href="./my disciple2.html" class="libr-books">
+                <img src="./assets/images/my disciple wants to tease me everyday 2.jpg" alt="" class="book-image">
+                <span class="book-category">Ongoing</span>
+        
+                <div class="book-data-container">
+        
+                    <h3 class="title book-title">My Disciple Wants to Tease Me Everyday</h3>
+        
+                </div>
+            </a>
+            <a href="./alchemy emperor.html" class="popular-books">
+                <img src="./assets/images/alchemy emperor 3.jpg" alt="" class="book-image">
+                <span class="book-category">Ongoing</span>
+        
+                <div class="book-data-container">
+        
+                    <h3 class="title book-title">Alchemy Emperor of the divine Dao</h3>
+        
+                </div>
+            </a>
+            <a href="./my disciple1.html" class="libr-books">
+                <img src="./assets/images/my disciple died once again 3.jpg" alt="" class="book-image">
+                <span class="book-category">Ongoing</span>
+        
+                <div class="book-data-container">
+        
+                    <h3 class="title book-title">My Disciple Died Yet Again</h3>
+        
+                </div>
+            </a>
+            <a href="./versatile mage.html" class="libr-books">
+                <img src="./assets/images/Versatile Mage Cover 2.jpg" alt="" class="book-image">
+                <span class="book-category">Ongoing</span>
+        
+                <div class="book-data-container">
+        
+                    <h3 class="title book-title">Versatile Mage</h3>
+        
+                </div>
+            </a>
+            <a href="./dragon prince.html" class="popular-books">
+                <img src="./assets/images/dragon prince characters 4 Wu_Yao_1 [MConverter.eu].png" alt="" class="book-image">
+                <span class="book-category">Ongoing</span>
+        
+                <div class="book-data-container">
+        
+                    <h3 class="title book-title">Dragon Prince Yuan</h3>
+        
+                </div>
+            </a>
+            <a href="./mr tycoon.html" class="libr-books">
+                <img src="./assets/images/Mr Tycoons Daring Wife 2.jpg" alt="" class="book-image">
+                <span class="book-category">Ongoing</span>
+        
+                <div class="book-data-container">
+        
+                    <h3 class="title book-title">Mr Tycoon's Daring Wife</h3>
+        
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- New Realeses -->
+    <div class="new-real">
+        <h2>New Realeases</h2>
+        <div class="new-releases">
+            <a href="./ero manga.html" class="new-releases">
+                <img src="./assets/images/ero manga sensei cover.jpg" alt="" class="book-image">
+                <span class="book-category">Ongoing</span>
+        
+                <div class="book-data-container">
+        
+                    <h3 class="title book-title">Ero manga Sensei</h3>
+        
+                </div>
+            </a>
+            <a href="./deconess art.html" class="libr-books">
+                <img src="./assets/images/demoness art of vengeance 4.jpg" alt="" class="book-image">
+                <span class="book-category">Ongoing</span>
+        
+                <div class="book-data-container">
+        
+                    <h3 class="title book-title">Demoness' art of Vengeance</h3>
+        
+                </div>
+            </a>
+            <a href="./leviathan.html" class="libr-books">
+                <img src="./assets/images/leviathan of the covenant cover 2.jpg" alt="" class="book-image">
+                <span class="book-category">Ongoing</span>
+        
+                <div class="book-data-container">
+        
+                    <h3 class="title book-title">Leviathan of the Cover</h3>
+        
+                </div>
+            </a>
+            <a href="./soul land1.html" class="libr-books">
+                <img src="./assets/images/soul land 1.jpg" alt="" class="book-image">
+                <span class="book-category">Ongoing</span>
+        
+                <div class="book-data-container">
+        
+                    <h3 class="title book-title">Soul Land 1</h3>
+        
+                </div>
+            </a>
+            <a href="./the begging.html" class="libr-books">
+                <img src="./assets/images/The Beggining After The End 2.jpg" alt="" class="book-image">
+                <span class="book-category">Ongoing</span>
+        
+                <div class="book-data-container">
+        
+                    <h3 class="title book-title">The Begging After the End</h3>
+        
+                </div>
+            </a>
+            <a href="./peerless god.html" class="libr-books">
+                <img src="./assets/images/peerless martial god cover.jpg" alt="" class="book-image">
+                <span class="book-category">Ongoing</span>
+        
+                <div class="book-data-container">
+        
+                    <h3 class="title book-title">Peerless Martial God</h3>
+        
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- User Favourites -->
+    <div class="lib-books">
+        <h2>Library</h2>
+        <div class="library">
+            <a href="./A Lily blooms in Another World.html" class="libr-books">
+                <img src="./assets/images/a lily blooms in another world 1.jpg" alt="" class="book-image">
+                <span class="book-category">Ongoing</span>
+        
+                <div class="book-data-container">
+        
+                    <h3 class="title book-title">A Lily blooms in Another World</h3>
+        
+                </div>
+            </a><a href="./A Returners Magic.html" class="libr-books">
+                <img src="./assets/images/a returner's magic should be special cover.jpg" alt="" class="book-image">
+                <span class="book-category">Ongoing</span>
+        
+                <div class="book-data-container">
+        
+                    <h3 class="title book-title">A Returner's Magic should be Special </h3>
+        
+                </div>
+            </a>
+            <a href="./alchemy emperor.html" class="libr-books">
+                <img src="./assets/images/alchemy emperor 3.jpg" alt="" class="book-image">
+                <span class="book-category">Ongoing</span>
+        
+                <div class="book-data-container">
+        
+                    <h3 class="title book-title">Alchemy Emperor of the divine Dao</h3>
+        
+                </div>
+            </a>
+            <a href="./battle through heavens.html" class="libr-books">
+                <img src="./assets/images/battle through the heavens 4.jpg" alt="" class="book-image">
+                <span class="book-category">Ongoing</span>
+        
+                <div class="book-data-container">
+        
+                    <h3 class="title book-title">Battle through the Heavens</h3>
+        
+                </div>
+            </a>
+            <a href="./deconess art.html" class="libr-books">
+                <img src="./assets/images/demoness art of vengeance 4.jpg" alt="" class="book-image">
+                <span class="book-category">Ongoing</span>
+        
+                <div class="book-data-container">
+        
+                    <h3 class="title book-title">Demoness' art of Vengeance</h3>
+        
+                </div>
+            </a>
+            <a href="./dragon prince.html" class="libr-books">
+                <img src="./assets/images/dragon prince characters 4 Wu_Yao_1 [MConverter.eu].png" alt="" class="book-image">
+                <span class="book-category">Ongoing</span>
+        
+                <div class="book-data-container">
+        
+                    <h3 class="title book-title">Dragon Prince Yuan</h3>
+        
+                </div>
+            </a>
+            <a href="./ero manga.html" class="libr-books">
+                <img src="./assets/images/ero manga sensei cover.jpg" alt="" class="book-image">
+                <span class="book-category">Ongoing</span>
+        
+                <div class="book-data-container">
+        
+                    <h3 class="title book-title"> Ero Manga Sensei </h3>
+        
+                </div>
+            </a>
+            <a href="./i seal the heavens.html" class="libr-books">
+                <img src="./assets/images/i shall seal the heavens 3.jpg" alt="" class="book-image">
+                <span class="book-category">Ongoing</span>
+        
+                <div class="book-data-container">
+        
+                    <h3 class="title book-title">I shall Seal the Heavens</h3>
+        
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- Library -->
+
+
+    <!-- Footer -->
+    <footer class="footer section">
+        <div class="footer-container container d-grid">
+            
+            <div class="company-data">
+                <a href="./index.html">
+                    <h2 class="logo">MurkyRealms</h2>
+                </a>
+                <ul class="list social-media">
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-instagram-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-facebook-circle-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-twitter-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-pinterest-line"></i></a>
+                    </li>
+                </ul>
+                <span class="copyright-notice">&copy;2021 MurkyRealms. All rights reserved.</span>
+            </div>
+
+            <div>
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="./About us.html" class="list-link">About us</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="./Contact us.html" class="list-link">Contact us</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="./DMCA.html" class="list-link">DMCA</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="./Privacy policy.html" class="list-link">Privacy Policy</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="./Terms of Service.html" class="list-link">Terms of Service</a>
+                    </li>
+                </ul>
+            </div>
+    </footer>
+
+
+    <!-- Swiper.js -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!-- Custom script -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
